@@ -1,6 +1,8 @@
-sudo: required
+sudo: true
+os: linux
 services:
     - docker
+language: ruby
 
 before_install:
     - docker build -t softqa1993/docker-react -f Dockerfile.dev .
