@@ -1,4 +1,3 @@
-sudo: true
 os: linux
 services:
     - docker
